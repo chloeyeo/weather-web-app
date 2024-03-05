@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: system-ui, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:pink;
+}
+
+.card{
+    width:470px;
+    background: linear-gradient(purple,rgb(75, 134, 201));
+    color: rgb(255, 224, 230);
+    margin: 100px auto;
+    border-radius:18px;
+    padding: 100px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.search input{
+    border-radius: 25px;
+    flex:1;
+}
+
+.search button{
+    border-radius: 25px;
+}
